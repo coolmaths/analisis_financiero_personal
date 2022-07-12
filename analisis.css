@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 67.5%;
+}
+main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    
+}
+h1{
+    font-size: 3rem;
+    text-align: center
+}
+form{
+    width: 50%;
+    position: relative;
+    min-width: 350px;
+    height: 250px;
+    
+}
+.formulario1 label{
+    display: inline-block;
+    width: 160px;
+    height: 25px;
+    background-color: cadetblue;
+    margin: 2px;
+}
+.formulario1 input{
+    position: absolute;
+    margin-left: 20px;
+    background-color: aquamarine;
+    margin-top: 5px;
+
+}
+.formulario1 button{
+    position: absolute;
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+#resultA{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultP{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultAsociados{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultSaldo{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultRangoAhorros{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultRangoPrestamos{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultVarianzaAhorros{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}
+#resultDesviacionAhorros{
+    background-color: aquamarine;
+    height: 25px;
+    width: 80%;
+    border: 2px blue solid;
+}

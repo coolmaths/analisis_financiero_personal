@@ -1,0 +1,26 @@
+const datos_asociados=[];
+datos_asociados.push({
+    name:"Ana",
+    ahorro:5000,
+    prestamo:2000,
+});
+datos_asociados.push({
+    name:"María",
+    ahorro:7000,
+    prestamo:1000,
+});
+datos_asociados.push({
+    name:"Sandra",
+    ahorro:3000,
+    prestamo:6000,
+});
+datos_asociados.push({
+    name:"Juan",
+    ahorro:10000,
+    prestamo:1500,
+});
+datos_asociados.push({
+    name:"Rony",
+    ahorro:1000,
+    prestamo:100,
+});

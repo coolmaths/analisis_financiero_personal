@@ -4,16 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análisis Financiero</title>
+    <link rel="stylesheet" href="./analisis.css">
 </head>
 <body>
     <header>
         <h1>Análisis Financiero</h1>
     </header>
     <main>
-        <form action="">
+        <form class="formulario1" action="">
+            <h2>Ingresar nuevos asociados</h2>
+            <label for="inputName">Ingresar nombre:</label>
+            <input id="inputName" type="text"/>
+            <br>
+            <label for="inputAhorro">Ingresar Ahorros:</label>
+            <input id="inputAhorro" type="number"/>
+            <br>
+            <label for="inputPrestamo">Ingresar Préstamos:</label>
+            <input id="inputPrestamo" type="number"/>
+            <button type="button" onclick="onClickButtonAnexarAsociado()">
+                Anexar al asociado
+            </button>
+        </form>
+        <form class="formulario2" action="">
             <h2>Calculo de variables de los asociados</h2>
+            <button type="button" onclick="onClickButtonPromedioAhorros()">
+                Calcular el promedio total de ahorros
+            </button>
+            <p id="resultA"></p>
+                      
+            
+            <button type="button" onclick="onClickButtonPromedioPrestamos()">
+                Calcular el promedio total de prestamos
+            </button>
+            <p id="resultP"></p>
+            <button type="button" onclick="onClickButtonListadoAsociados()">
+                Listar a los asociados
+            </button>
+            <p id="resultAsociados"></p>
+            <label for="">Revise el saldo por persona</label>
+            <br>
+            <label for="">Digite el nombre:</label>
+            <input id="inputNombre" type="text"/>
+            <button type="button" onclick="onClickButtonSaldoPorPersona()">
+                saldo
+            </button>
+            <p id="resultSaldo"></p>
+            
+        </form>
+        <form class="formulario3" action="">
+            <h2>Medidas de Dispersión</h2>
+            <button type="button" onclick="onClickButtonRangoAhorros()">
+                Calcular el Rango de Ahorros
+            </button>
+            <p id="resultRangoAhorros"></p>
+            <button type="button" onclick="onClickButtonRangoPrestamos()">
+                Calcular el Rango de Prestamos
+            </button>
+            <p id="resultRangoPrestamos"></p>
+            <button type="button" onclick="onClickButtonVarianzaAhorros()">
+                Calcular la varianza de los ahorros
+            </button>
+            <p id="resultVarianzaAhorros"></p>
+            <button type="button" onclick="onClickButtonDesviacionAhorros()">
+                Calcular la desviación estandar de los ahorros
+            </button>
+            <p id="resultDesviacionAhorros"></p>
         </form>
     </main>
+    <script src="./datos.js"></script>
+    <script src="./analisis.js"></script>
     <footer>
 
     </footer>
